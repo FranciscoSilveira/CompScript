@@ -21,7 +21,7 @@ $ chmod +x ./run.sh
 $ ./run.sh
 ```
 
-É gerado o ficheiro **"results.txt"** na directoria actual que mostra "Passed!" para cada teste sem erros e "Failed!" com as diferenças de output para cada teste que falhou. Exemplo:
+É gerado o ficheiro **"results.txt"** na directoria actual que mostra "Passed!" para cada teste sem erros e "Failed!" com as diferenças de output para cada teste que falhou. Teste que tiveram o output esperado, mas que não têm o return code 0 contam como 0.5. Exemplo:
 ```
 B-12-20-N-ok.m19
         Passed
