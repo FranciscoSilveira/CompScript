@@ -1,5 +1,5 @@
-#librts_dir=""
-librts_dir="../libs/librts4-201602111900" # uncomment and edit this line if you're not using the VM
+librts_dir=""
+#librts_dir="../libs/librts4-201602111900" # uncomment and edit this line if you're not using the VM
 test_dir="../tests/"
 log_file="results.txt"
 common="[A-Z]-[0-9]{2}-[0-9]{1,3}-N-ok"
