@@ -10,7 +10,7 @@ O script só corre em Linux.
 * Fazer download (ali ao lado)
 * Copiar para a pasta onde está o código do projecto (onde está o Makefile):
 ```sh
-$ unzip ~/Downloads/POscript-master.zip -d ~/path/para/a/pasta/do/projecto
+$ unzip ~/Downloads/CompScript-master.zip -d ~/path/para/a/pasta/do/projecto
 ```
 * Dar permissões de execução:
 ```sh
