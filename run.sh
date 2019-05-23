@@ -76,7 +76,7 @@ do
 			echo -e "\tPassed\n" >> $log_file
 		else
 			passed=$((passed+1)) 
-			echo -e "\tOutput was correct, but return code was not 0" >> $logfile
+			echo -e "\tOutput was correct, but return code was not 0\n" >> $logfile
 		fi
 	else
 		failed=$((failed+1))
