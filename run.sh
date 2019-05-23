@@ -75,7 +75,7 @@ do
 			passed=$((passed+1))
 			echo -e "\tPassed\n" >> $log_file
 		else
-			passed=$((passed+0.5)) 
+			passed=$((passed+1)) 
 			echo -e "\tOutput was correct, but return code was not 0"
 		fi
 	else
